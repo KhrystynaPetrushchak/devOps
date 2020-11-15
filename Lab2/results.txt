@@ -17,3 +17,22 @@ No URL passed to function
 Time is:  05:07:06 PM
 Date is:  11-15-2020
 success
+============================= test session starts ==============================
+platform linux -- Python 3.7.9, pytest-6.1.2, py-1.9.0, pluggy-0.13.1
+rootdir: /home/khrustya/devOps/Lab2
+collected 5 items
+
+tests/tests.py .....                                                     [100%]
+
+============================== 5 passed in 0.87s ===============================
+Мій поточний час:  19:53:09.058563 
+
+Доброго дня!
+========================================
+Результат без параметрів: 
+No URL passed to function
+========================================
+Результат з правильною URL: 
+Time is:  05:53:09 PM
+Date is:  11-15-2020
+success

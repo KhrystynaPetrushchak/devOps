@@ -1,0 +1,23 @@
+INFO 2020-11-29 15:29:00,313 root : Server is available. Time on server: 2020-11-29 13:29:00
+INFO 2020-11-29 15:29:00,313 root : Request page: : http://localhost:8000/health/
+INFO 2020-11-29 15:29:00,313 root : Answer of the server includes:
+INFO 2020-11-29 15:29:00,313 root : Key: date, Emount: 2020-11-29 13:29:00
+INFO 2020-11-29 15:29:00,313 root : Key: current_page, Emount: http://localhost:8000/health/
+INFO 2020-11-29 15:29:00,313 root : Key: server_info, Emount: ['Linux', 'khrustya', '5.4.0-53-generic', '#59~18.04.1-Ubuntu SMP Wed Oct 21 12:14:56 UTC 2020', 'x86_64']
+INFO 2020-11-29 15:29:00,313 root : Key: client_info, Emount: python-requests/2.25.0
+INFO 2020-11-29 15:30:00,382 root : Server is available. Time on server: 2020-11-29 13:30:00
+INFO 2020-11-29 15:30:00,383 root : Request page: : http://localhost:8000/health/
+INFO 2020-11-29 15:30:00,383 root : Answer of the server includes:
+INFO 2020-11-29 15:30:00,383 root : Key: date, Emount: 2020-11-29 13:30:00
+INFO 2020-11-29 15:30:00,383 root : Key: current_page, Emount: http://localhost:8000/health/
+INFO 2020-11-29 15:30:00,383 root : Key: server_info, Emount: ['Linux', 'khrustya', '5.4.0-53-generic', '#59~18.04.1-Ubuntu SMP Wed Oct 21 12:14:56 UTC 2020', 'x86_64']
+INFO 2020-11-29 15:30:00,383 root : Key: client_info, Emount: python-requests/2.25.0
+INFO 2020-11-29 15:31:00,470 root : Server is available. Time on server: 2020-11-29 13:31:00
+INFO 2020-11-29 15:31:00,470 root : Request page: : http://localhost:8000/health/
+INFO 2020-11-29 15:31:00,470 root : Answer of the server includes:
+INFO 2020-11-29 15:31:00,471 root : Key: date, Emount: 2020-11-29 13:31:00
+INFO 2020-11-29 15:31:00,471 root : Key: current_page, Emount: http://localhost:8000/health/
+INFO 2020-11-29 15:31:00,471 root : Key: server_info, Emount: ['Linux', 'khrustya', '5.4.0-53-generic', '#59~18.04.1-Ubuntu SMP Wed Oct 21 12:14:56 UTC 2020', 'x86_64']
+INFO 2020-11-29 15:31:00,471 root : Key: client_info, Emount: python-requests/2.25.0
+ERROR 2020-11-29 15:32:00,537 root : There is no access to the 
+ERROR 2020-11-29 15:33:00,599 root : There is no access to the 

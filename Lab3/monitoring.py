@@ -25,7 +25,7 @@ def main(url):
                 logging.info("Key: %s, Emount: %s", key, data[key])
         except requests.exceptions.ConnectionError:
             logging.error("There is no access to the ")
-
+	    return 0
         time.sleep(60)
 
 if __name__ == '__main__':

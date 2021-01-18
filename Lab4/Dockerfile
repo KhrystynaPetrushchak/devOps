@@ -1,6 +1,6 @@
 FROM python:3.8-slim
 
-LABEL author="Khrystyna"
+LABEL author="Oleh"
 LABEL version=1.0
 
 # оновлюємо систему
@@ -16,7 +16,7 @@ WORKDIR /Lab4
 RUN git clone https://github.com/KhrystynaPetrushchak/devOps.git
 
 # Створюємо остаточну робочу папку з Веб-сайтом та копіюємо туди файли
-WORKDIR /app
+WORKDIR /App
 RUN cp -r /Lab4/devOps/Lab3/* .
 
 # Інсталюємо всі залежності
@@ -26,4 +26,4 @@ RUN pipenv install
 EXPOSE 8000
 
 # Це команда яка виконається при створенні контейнера
-ENTRYPOINT ["pipenv", "run", "python", "manage.py", "runserver", "0.0.0.0:8000"]
+ENTRYPOINT ["pipenv", "run", "python3", "monitoring.py"]
